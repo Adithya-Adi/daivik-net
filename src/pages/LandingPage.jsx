@@ -33,7 +33,7 @@ function LandingPage() {
           transition="opacity 0.5s ease"
         />
 
-        <Flex flexDirection="column" justifyContent="center" flex={1} ml={8} mt={20}>
+        <Flex flexDirection="column" justifyContent="center" flex={1} ml={8}>
           <Text fontSize="xl" align="justify" mb={4}>
             From the Sahasralingeshwara temple known as Dakshina Kashi, if you travel towards Bengaluru on National Highway 75 and drive 12 kilometers, there is a place called Golithottu where Sri Mahavishnumurti Temple is situated, approximately two kilometers to the right on Thirle Road. It is estimated to be older than a hundred years and is currently within the Kadaba taluk.
           </Text>
