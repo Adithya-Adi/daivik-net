@@ -11,9 +11,6 @@ import {
 function LandingPage() {
   const isMobile = useBreakpointValue({ base: true, md: false });
 
- 
-
-  
   return (
     <>
       <GallerySlider />

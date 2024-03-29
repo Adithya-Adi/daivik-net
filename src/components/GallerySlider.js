@@ -92,7 +92,7 @@ const GallerySlider = () => {
         </Text>
         <Text
           position="absolute"
-          top={isMobile ? "60%" : "55%"}
+          top={isMobile ? "60%" : "60%"}
           left="50%"
           transform="translate(-50%, -50%)"
           color="white"

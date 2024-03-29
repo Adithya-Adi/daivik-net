@@ -20,8 +20,8 @@ const Gallery = () => {
 
   return (
     <>
-      <Box p="4">
-        <Heading justifyContent="center" align="center" p={3} mb={4}>Re-Construction Images</Heading>
+      <Box p="4" bg={'gray.800'} >
+        <Heading justifyContent="center" align="center" p={3} mb={4} color={'gray.200'}>Re-Construction Images</Heading>
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
           {Object.keys(constImages)?.map((imageName, index) => (
             <Box
@@ -49,8 +49,8 @@ const Gallery = () => {
       </Box>
 
 
-      <Box p="4">
-        <Heading justifyContent="center" align="center" p={3} mb={3}>Pooja Images</Heading>
+      <Box p="4" bg={'gray.800'}>
+        <Heading justifyContent="center" align="center" p={3} mb={3} color={'gray.200'}>Pooja Images</Heading>
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
           {Object.keys(poojaImages)?.map((imageName, index) => (
             <Box
