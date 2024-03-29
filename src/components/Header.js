@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <Flex p="4" alignItems="center" justifyContent="space-between" bg={'gray.800'} boxShadow="md" flexDirection={{ base: 'column', md: 'row' }}>
       <Flex alignItems="center">
-      <Image src={logo} alt="DaivikNet Logo" width="200px" />
+        <Image src={logo} alt="DaivikNet Logo" width="200px" />
       </Flex>
       <Stack
         spacing={4}
@@ -21,9 +21,9 @@ const NavBar = () => {
           <Link
             href="/"
             fontSize="lg"
-            color={location.pathname === "/" ? 'gray.800' : 'gray.200'}
-            _hover={{ textDecoration: 'none', color: 'blue.500' }}
-            bg={location.pathname === "/" ? "white" : ""}
+            color={location.pathname === "/" ? 'gray.200' : '#fd7736'}
+            _hover={{ textDecoration: 'none', color: location.pathname === "/" ? 'black' : 'white' }}
+            bg={location.pathname === "/" ? "#fd7736" : ""}
             p={2}
             borderRadius={"10%"}
           >
@@ -34,9 +34,9 @@ const NavBar = () => {
           <Link
             href="/gallery"
             fontSize="lg"
-            color={location.pathname === "/gallery" ? 'gray.800' : 'gray.200'}
-            _hover={{ textDecoration: 'none', color: 'blue.500' }}
-            bg={location.pathname === "/gallery" ? "white" : ""}
+            color={location.pathname === "/gallery" ? 'gray.200' : '#fd7736'}
+            _hover={{ textDecoration: 'none', color: location.pathname === "/gallery" ? 'black' : 'white' }}
+            bg={location.pathname === "/gallery" ? "#fd7736" : ""}
             p={2} borderRadius={"10%"}
           >
             Gallery
@@ -46,9 +46,9 @@ const NavBar = () => {
           <Link
             href="/login"
             fontSize="lg"
-            color={location.pathname === "/login" ? 'gray.800' : 'gray.200'}
-            _hover={{ textDecoration: 'none', color: 'blue.500' }}
-            bg={location.pathname === "/login" ? "white" : ""}
+            color={location.pathname === "/login" ? 'gray.200' : '#fd7736'}
+            _hover={{ textDecoration: 'none', color: location.pathname === "/login" ? 'black' : 'white' }}
+            bg={location.pathname === "/login" ? "#fd7736" : ""}
             p={2}
             borderRadius={"10%"}
           >

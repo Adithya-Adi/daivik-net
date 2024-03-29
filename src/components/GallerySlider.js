@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { IconButton, Flex, Image, Text, Circle, useBreakpointValue } from "@chakra-ui/react";
+import { IconButton, Flex, Image, Text, Circle, useBreakpointValue, Heading } from "@chakra-ui/react";
 import { ArrowBackIcon, ArrowForwardIcon } from "@chakra-ui/icons";
 
 const GallerySlider = () => {
@@ -73,23 +73,22 @@ const GallerySlider = () => {
           alt={"image"}
           objectFit="cover"
           width="100%"
-          height={isMobile ? "500px" : "1000px"}
+          height={isMobile ? "500px" : "800px"}
           borderRadius="md"
           zIndex={0}
           opacity={isAnimating ? 0.1 : 0.3}
           transition="opacity 0.5s ease"
         />
-        <Text
+        <Heading
           position="absolute"
           top={isMobile ? "40%" : "50%"}
           left="50%"
           transform="translate(-50%, -50%)"
-          color="white"
           zIndex={2}
-          fontSize={isMobile ? "30px" : "50px"}
+          fontSize={isMobile ? "30px" : "45px"}
         >
           Thirle Shri Vishnumoorthy Temple
-        </Text>
+        </Heading>
         <Text
           position="absolute"
           top={isMobile ? "60%" : "60%"}
